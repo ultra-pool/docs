@@ -90,8 +90,8 @@ Execute the following as user `gitianuser`:
 
 ```bash
 cd gitian-builder
-bin/make-base-vm --lxc --arch amd64 --suite bionic # For releases after and including 0.17.0
-bin/make-base-vm --lxc --arch amd64 --suite trusty # For releases before 0.17.0
+bin/make-base-vm --lxc --arch amd64 --suite bionic # For releases after and including 0.17.0 (Command does not work) - UltraPool 11.06.2019
+bin/make-base-vm --lxc --arch amd64 --suite trusty # For releases before 0.17.0 (Command works) - UltraPool 11.06.2019
 ```
 
 There will be a lot of warnings printed during the build of the image. These can be ignored.
